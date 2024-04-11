@@ -12,6 +12,8 @@ const SocialButton: React.FC<SocialButtonProps> = ({ icon, url, alt }) => (
     <Image
         src={icon}
         alt={alt}
+        width={40}
+        height={40}
         style={{ width: '24px', height: '24px' }}
     />
   </a>
