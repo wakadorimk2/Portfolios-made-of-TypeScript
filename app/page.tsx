@@ -25,7 +25,7 @@ export default function Home() {
           width={180}
           height={37}
           priority
-          style={{ borderRadius: '100%', border: '8px solid #5193D0', }}
+          style={{ borderRadius: '50%', border: '8px #5193D0', }}
         />
       </div>
 
