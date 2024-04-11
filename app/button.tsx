@@ -14,8 +14,6 @@ const SocialButton: React.FC<SocialButtonProps> = ({ icon, url, alt }) => (
         alt={alt}
         width={40}
         height={40}
-        // style={{ width: '24px', height: '24px' }}
-        style={{ display: 'inline-block', borderRadius: '50%', overflow: 'hidden', backgroundColor: '#235686' }}
     />
   </a>
 );
