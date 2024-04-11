@@ -36,7 +36,12 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            X{" "}
+            <Image
+              src="x-logo.svg"
+              alt="x logo icon"
+              width={40}
+              height={40}
+            />{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
