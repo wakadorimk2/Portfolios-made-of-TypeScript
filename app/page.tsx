@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SocialButton from "./button";
 
 export default function Home() {
   return (
@@ -36,12 +37,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            <Image
-              src="x-logo.svg"
-              alt="x logo icon"
-              width={40}
-              height={40}
-            />{" "}
+            <SocialButton icon="./x-logo.svg" url="https://twitter.com/wakadori_Mk3" alt="x logo icon"/>
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
